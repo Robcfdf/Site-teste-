@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: auto 1fr ;
+}
+
+.header{
+    grid-column: 1/-1;
+    background-color: rgb(161, 158, 158);
+    padding:20px ;
+}
+.sidebar{
+    background-color: rgb(136, 3, 3);
+    padding:20px ;
+
+}
+.content{
+    background-color: rgb(236, 120, 120);
+    padding: 20px;
+}

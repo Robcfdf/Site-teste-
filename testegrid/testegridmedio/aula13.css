@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr ;
+    grid-template-rows: auto 1fr;
+}
+.cabeçalho{
+     grid-column: 1/-1;
+     background-color: rgb(208, 241, 148);
+     padding: 25px;
+     border: 1px solid rgb(0, 0, 0);
+
+}
+.colunaEsquerda{
+    background-color: rgb(131, 131, 173);
+     padding: 10px;
+     border: 1px solid rgb(0, 0, 0);
+
+
+}
+.conteudo{
+    background-color: rgb(28, 28, 122);
+     padding: 320px;
+     border: 1px solid rgb(0, 0, 0);
+
+
+}
+.colunaDireita{
+    background-color: rgb(153, 153, 228);
+     padding: 10px;
+     border: 1px solid rgb(0, 0, 0);
+
+}
+.rodape{
+    grid-column: 1/-1;
+    background-color: rgb(173, 10, 152);
+     padding: 10px;
+     border: 1px solid rgb(0, 0, 0);
+
+}

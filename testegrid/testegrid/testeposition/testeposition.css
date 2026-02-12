@@ -1,0 +1,35 @@
+.topo{
+    background-color: gold;
+    position: sticky;
+    position: -webkit-sticky;
+    border:solid 1px #000;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: 0;
+
+}
+.relativo{
+    position: relative;
+    height: 100px;
+    background-color: green;
+}
+.absoluto{
+    position: absolute;
+    height: 50px;
+    background-color: blue;
+    bottom: 0px;
+    right: 10px;
+    width: 20px;
+   
+
+}
+.fixa{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom:20px;
+    right: 20px;
+    background-color: red;
+
+}

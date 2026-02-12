@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(165, 165, 233) ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 3px solid #000;
+    border-radius: 3px;
+}
