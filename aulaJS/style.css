@@ -1,0 +1,89 @@
+/* Fundo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #74ebd5;
+    outline: none;
+}
+
+/* Botão */
+button {
+    background-color: #74ebd5;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #4bb3a7;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos dinâmicos para aprovado, recuperação e reprovado */
+.aprovado {
+    color: green;
+}
+
+.recuperacao {
+    color: orange;
+}
+
+.reprovado {
+    color: red;
+}
+
+}
