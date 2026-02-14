@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Lateral esquerda com lista -->
+    <div class="list-box">
+      <h1>Lista de Compras</h1>
+      <div id="listas"></div>
+    </div>
+
+    <!-- Caixa central -->
+    <div class="form-box">
+      <h1>Gerenciar Lista 🛒</h1>
+
+      <!-- Adicionar item -->
+      <form id="formAdicionar">
+        <input type="text" id="novoItem" placeholder="Nome do item..." required>
+        <input type="number" id="quantidade" placeholder="Quantidade" min="1" value="1" required>
+        <select id="categoria" required></select>
+        <button type="submit">Adicionar Item</button>
+      </form>
+
+      <!-- Remover item -->
+      <form id="formRemover">
+        <select id="removerCategoria" required></select>
+        <input type="number" id="removerPosicao" placeholder="Posição na categoria..." min="1" required>
+        <button type="submit">Remover Item</button>
+      </form>
+
+      <!-- Gerenciar categorias -->
+      <form id="formCategoria">
+        <input type="text" id="novaCategoria" placeholder="Nova categoria...">
+        <button type="button" id="adicionarCategoria">Adicionar Categoria</button>
+        <button type="button" id="removerCategoriaBtn">Remover Categoria</button>
+      </form>
+
+      <button id="baixar">Baixar Lista</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
